@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Jarvis Gmail — Personal Desktop Assistant</title>
+  <meta name="description" content="Jarvis Gmail is a personal Windows desktop voice assistant that uses Google sign-in to read, draft and send Gmail and read Google Calendar for its owner.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="logo" aria-hidden="true"></div>
+    <a class="brand" href="./">Jarvis Gmail</a>
+    <nav>
+      <a href="./" aria-current="page">Home</a>
+      <a href="privacy.html">Privacy Policy</a>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Jarvis Gmail</h1>
+    <p class="lead">A personal desktop voice assistant for Windows, with Gmail and Google Calendar features through Google sign-in.</p>
+
+    <div class="card">
+      <p><strong>What it is.</strong> Jarvis is a private, single-user assistant that runs on its owner's own Windows PC. You talk to it in English, Urdu or Hindi, and it can open apps, manage files, set reminders and help with email and your schedule.</p>
+      <p><strong>Who it is for.</strong> It is a personal project used by its developer. It is not a public service, it has no user accounts, and there is no website where your data is stored.</p>
+    </div>
+
+    <h2>What it does with your Google account</h2>
+    <p>After you sign in with Google and approve access, Jarvis can:</p>
+    <ul>
+      <li><strong>Read Gmail</strong>: search your inbox and read messages when you ask (for example, "any email from Ahmed today?").</li>
+      <li><strong>Compose Gmail</strong>: write drafts and send emails you ask for. Before anything is sent, Jarvis shows it on screen, and nothing is sent until you approve it.</li>
+      <li><strong>Read Google Calendar</strong>: tell you about today's and upcoming events.</li>
+    </ul>
+    <p>Jarvis cannot delete your email and cannot change your calendar.</p>
+
+    <h2>Google permissions requested</h2>
+    <table>
+      <tr><th>Scope</th><th>Why</th></tr>
+      <tr><td><code>gmail.readonly</code></td><td>Search and read messages you ask about</td></tr>
+      <tr><td><code>gmail.compose</code></td><td>Create drafts and send emails that you approve on screen</td></tr>
+      <tr><td><code>calendar.readonly</code></td><td>Read your events for briefings and reminders</td></tr>
+    </table>
+
+    <h2>Privacy</h2>
+    <p>Your Google sign-in token is stored only on your own PC. Jarvis has no server and keeps no database of your email. The full details are in the <a href="privacy.html">Privacy Policy</a>.</p>
+  </main>
+
+  <footer>
+    Jarvis Gmail · personal project · <a href="privacy.html">Privacy Policy</a>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,15 @@
+# Never commit secrets.
+.env
+.env.*
+*.env
+credentials*.json
+client_secret*.json
+token*.json
+*.pem
+*.key
+*.p12
+*.pfx
+.bridge/
+node_modules/
+.DS_Store
+Thumbs.db
